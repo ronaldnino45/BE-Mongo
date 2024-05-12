@@ -2,7 +2,7 @@
  const conectarBD = require('../config/db');
  const cors = require('cors');
 
- // configuración express y puerto
+ // configuración express y puerto 5000
  const app = express();
  const port = 5000;
 
@@ -15,7 +15,7 @@ app.use(express.json());
  app.use('/api/clientes', require('../routes/RoutesCliente'));
  app.use('/api/empleados', require('../routes/RoutesEmpleado'));
 
-// Enlazamos nuestra conexion a base de datos
+// Enlazamos nuestra conexion a base de datos 
 
 
 
