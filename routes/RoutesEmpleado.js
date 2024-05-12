@@ -7,7 +7,7 @@ router.post('/', EmpleadoController.agregarEmpleados);
 router.get('/', EmpleadoController.mostrarEmpleados);
 router.get('/:id', EmpleadoController.mostrarUnEmpleado);
 router.delete('/:id', EmpleadoController.eliminarEmpleados);
-router.patch('/:id', EmpleadoController.modificarEmpleado);
+router.put('/:id', EmpleadoController.modificarEmpleado);
 //router.put('/:id', EmpleadoController.actualizarEmpleado);
 //router.put('/:id', EmpleadoController.ActualizarEmpleadoS);
 

@@ -7,7 +7,7 @@ router.post('/', ClienteController.agregarClientes);
 router.get('/', ClienteController.mostrarClientes);
 router.get('/:id', ClienteController.mostrarUnCliente);
 router.delete('/:id', ClienteController.eliminarClientes);
-router.patch('/:id', ClienteController.modificarCliente);
+router.put('/:id', ClienteController.modificarCliente);
 //router.put('/:id', ClienteController.actualizarCliente);
 //router.put('/:id', ClienteController.ActualizarClienteS);
 
