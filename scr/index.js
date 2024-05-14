@@ -4,7 +4,7 @@
 
  // configuración express y puerto 5000
  const app = express();
- const port = 5000;
+ const port = process.env.PORT || 5000;
 
 
  conectarBD();
